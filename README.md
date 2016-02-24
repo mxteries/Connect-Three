@@ -1,2 +1,3 @@
 # Connect-Three
-Connect Four except instead of four in a row, it's three in a row.
+This is similar to the board game Connect Four except this game in particular uses three in a row rather than four in a row.
+Made for a school assignment 

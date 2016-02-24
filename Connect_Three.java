@@ -1,11 +1,11 @@
-package boolean_labs;
+
 import java.util.Scanner;
 
 /**
  * David Shen
  * 10/26/15
- * "Connect Four" (three) according to the specifications outlined in the summer assignment
- * NOW with LOOPS!
+ * "Connect Four" (three) made for a summer assignment
+ * 
  */
  
 public class Connect_Three {
@@ -13,8 +13,7 @@ public class Connect_Three {
 	public static void main(String[] args) {
 	
 		System.out.println("Player 1 uses piece \"O\", and Player 2 uses piece \"X\"");
-		System.out.println("Please be logical and don't play columns are already filled");
-		System.out.println("And for the love of god don't enter a column number that doesn't even exist");
+		System.out.println("This game is not optimized for human error");
 		System.out.println(drawBoard("     ", "     ", "     ", "     ", "     ")); //these strings represent the columns
 		System.out.println("Player 1 begins; type the column you wish to play"); 
 		makeMove("     ", "     ", "     ", "     ", "     "); 
